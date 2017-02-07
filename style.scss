@@ -1,0 +1,36 @@
+
+.accordion-box {
+  height: 500px;
+  width: 500px;
+}
+
+
+h1 {
+  color: white;
+  background-color: #00C6D6;
+  height: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: white;
+  background-color: #00C6D6;
+  height: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  color: white;
+  background-color: #00C6D6;
+  height: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.goaway {
+  height: 0px;
+  overflow: hidden;
+  transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
+}
