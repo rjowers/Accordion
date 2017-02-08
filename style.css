@@ -3,27 +3,42 @@
   width: 500px; }
 
 h1 {
+  border: 1px solid #00B4C3; }
+
+h1.section1 {
   color: white;
   background-color: #00C6D6;
   height: 50px;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+  margin: 0%; }
 
-h2 {
+h1.section2 {
   color: white;
   background-color: #00C6D6;
   height: 50px;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+  margin: 0%; }
 
-h3 {
+h1.section3 {
   color: white;
   background-color: #00C6D6;
   height: 50px;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+  margin: 0%; }
 
-.goaway {
+.words1 {
+  border: 1px solid #00B4C3; }
+
+.words2 {
+  border: 1px solid #00B4C3; }
+
+.words3 {
+  border: 1px solid #00B4C3; }
+
+.close {
   height: 0px;
-  overflow: hidden;
-  transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay]; }
+  overflow: auto;
+  margin: 0px;
+  transition: height 0.5s;
+  padding: 0px; }
+
+.open {
+  height: 300px;
+  transition: height .5s; }
