@@ -16,7 +16,7 @@ $(".words1").addClass("close");
 
 
 var goaway
-function click1 (event) {
+function click1 () {
     $(".words1").removeClass('close').addClass('open');
     $(".words2").addClass('close').removeClass('open');
     $(".words3").addClass('close').removeClass('open');
