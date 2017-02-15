@@ -17,10 +17,10 @@ $(".words1").addClass("close");
 
 var goaway
 function click1 () {
-    $(".words1").removeClass('close').addClass('open');
-    $(".words2").addClass('close').removeClass('open');
-    $(".words3").addClass('close').removeClass('open');
-
+    $(".first-pic").removeClass('close').addClass('open');
+    $(".second-pic ").addClass('close').removeClass('open');
+    $(".fourth-pic ").addClass('close').removeClass('open');
+    $(".fifth-pic ").addClass('close').removeClass('open');
 
       //$(".words1").addClass('open');
       //$(".words2").addClass('close');
